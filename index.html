@@ -3,58 +3,53 @@
   <head>
     <title>My First Webpage</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
   </head>
   <body>
     <h1>Hello, world!</h1>
     <h1 id="main-title">Welcome to My Page</h1>
     
-    <h2> Trevor</h2>
+    <h2>Trevor</h2>
     <p>Welcome to my first webpage.</p>
-    <p>My name is Trevor.
-    <a href="https://youtube.com"> favorite website</a>
-    <p>I am Korean. I am highschoool student. I am 9th grade. I am in computer science class. I am sitting next to Ethan Jacob Yu
-    <p></p>
-        <h3>My hobbies</h3>
+    <p>My name is Trevor. Visit my <a href="https://youtube.com">favorite website</a>.</p>
+    <p>
+      I am Korean. I am a high school student in 9th grade. I am in computer science class, sitting next to Ethan Jacob Yu.
+    </p>
+
+    <h3>My hobbies</h3>
     <ul>
       <li>Sleeping</li>
       <li>Gaming</li>
-      <li>Running
-        <p></p>
-      </li>
+      <li>Running</li>
+    </ul>
+
     <img src="dfgsdh.gif" alt="FLASH BANG!!">
-    <p></p>
-    <font size="20">
-      FLASH BANG!!
-    </font>
-    <p></p>
-    <a href="project_1.html">
-      <button> This page is about...</button>
-    </a>
-    <a href="project_2.html">
-      <button> Singer</button>
-    </a>
-    <a href="project_3.html">
-      <button> Science Fair</button>
-    </a>
-    <a href="script.js">
-      <button onclick="changeBgColor()">Click Me</button>
-    </a>
+
+    <p style="font-size: 2em;">FLASH BANG!!</p>
+
+    <a href="project_1.html"><button>This page is about...</button></a>
+    <a href="project_2.html"><button>Singer</button></a>
+    <a href="project_3.html"><button>Science Fair</button></a>
+
+    <button onclick="changeBgColor()">Click Me</button>
 
     <p></p>
-<input type="text" id="nameInput" placeholder="Enter your name">
-<button onclick="diplayGreeting()">Submit</button>
-<p id="greeting"></p>
-    
+
+    <input type="text" id="nameInput" placeholder="Enter your name">
+    <button onclick="displayGreeting()">Submit</button>
+    <p id="greeting"></p>
+
     <input type="text" id="ColorInput" placeholder="Enter your favorite color">
-    <button onclick="changeBgColorUser()"> Change Background</button>
-    <p id="colorInput"></p>
+    <button onclick="changeBgColorUser()">Change Background</button>
+    <p id="colorInputDisplay"></p>
 
-    <p></p>
     <input type="text" id="ageInput" placeholder="Enter your age">
-    <button onclick="checkAge">Check User age</button>
-    <p id="ageInput"></p>
-    <img src="nothing.gif" onclick="favorite()" ondblclick="unfavorite()">
-    <img src="nothing.gif" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)"
+    <button onclick="checkAge()">Check User Age</button>
+    <p id="ageResult"></p>
+
+    <img src="nothing.gif" alt="Favorite" onclick="favorite()" ondblclick="unfavorite()">
+    <img src="nothing.gif" alt="Hover Effect" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
+
+    <!-- JavaScript should be loaded at the end -->
+    <script src="script.js"></script>
   </body>
 </html>

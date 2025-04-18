@@ -14,9 +14,9 @@ function changeBgColor() {
 function checkAge() {
     let age = document.getElementById("ageInput").value;
     if (age>= 18) {
-        alert("you are and adult");
+        alert("you are an adult");
     } else {
-        alert("you are not adult");
+        alert("you are not an adult");
     }
 }
 
